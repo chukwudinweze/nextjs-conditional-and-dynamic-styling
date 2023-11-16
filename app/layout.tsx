@@ -23,7 +23,7 @@ export default function RootLayout({
           <Header />
           <Nav />
         </header>
-        <main className="lg:px-40"> {children}</main>
+        <main className="lg:px-36 pb-10"> {children}</main>
       </body>
     </html>
   );

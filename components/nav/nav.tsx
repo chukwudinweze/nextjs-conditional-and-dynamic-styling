@@ -4,7 +4,7 @@ import NavItem from "./nav-item";
 
 const Nav = () => {
   return (
-    <nav className=" flex justify-between lg:mx-40 divide-x-2 shadow-sm p-1 py-3 md:translate-y-[-50%] bg-white rounded-sm overflow-x-auto">
+    <nav className=" flex justify-between lg:mx-36 divide-x-2 shadow-sm p-1 py-3 md:translate-y-[-50%] bg-white rounded-sm overflow-x-auto">
       <NavItem
         icon={BiSearch}
         inputType="text"
