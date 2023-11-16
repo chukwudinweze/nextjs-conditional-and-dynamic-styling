@@ -1,15 +1,33 @@
-import React from "react";
+import { IconType } from "react-icons";
 
-const JobCard = () => {
+interface JobCardProps {
+  type: string;
+  title: string;
+  company: string;
+  location: string;
+  time: string;
+  logo: IconType;
+}
+
+const JobCard = ({
+  company,
+  location,
+  title,
+  type,
+  time,
+  logo: Logo,
+}: JobCardProps) => {
   return (
     <div className="p3">
-      <span>logo</span>
+      <span>
+        <Logo />
+      </span>
       <p>
-        time pasted <span className="font-bold">.</span> type of job
+        {time} <span className="font-bold">.</span> {type}
       </p>
-      <p className="font-bold text-black">Senior software</p>
-      <p>company</p>
-      <p className="text-brandColor font-bold">country</p>
+      <p className="font-bold text-black">{title}</p>
+      <p>{company}</p>
+      <p className="text-brandColor font-bold">{location}</p>
     </div>
   );
 };

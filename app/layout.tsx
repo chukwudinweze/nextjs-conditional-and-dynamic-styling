@@ -18,12 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${openSans.className} lg:px-40 bg-slate-200`}>
+      <body className={`${openSans.className}  bg-slate-200`}>
         <header>
           <Header />
           <Nav />
         </header>
-        <main className=""> {children}</main>
+        <main className="lg:px-40"> {children}</main>
       </body>
     </html>
   );
