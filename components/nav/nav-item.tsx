@@ -24,7 +24,7 @@ const NavItem = ({ icon: Icon, inputType, placeholder }: NavItemProps) => {
         />
       )}
       {inputType === "check" && <p>Full Time Only</p>}
-      {inputType === "check" && <button>hghhg</button>}
+      {inputType === "check" && <button>Search</button>}
     </div>
   );
 };

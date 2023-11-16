@@ -1,5 +1,11 @@
+import JobCard from "@/components/jobCard";
+
 const HomePage = () => {
-  return <div>HomePage</div>;
+  return (
+    <div>
+      <JobCard />
+    </div>
+  );
 };
 
 export default HomePage;

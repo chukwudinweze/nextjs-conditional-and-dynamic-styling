@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${openSans.className} lg:px-40`}>
+      <body className={`${openSans.className} lg:px-40 bg-slate-200`}>
         <header>
           <Header />
           <Nav />
