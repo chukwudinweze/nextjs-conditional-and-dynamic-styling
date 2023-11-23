@@ -1,5 +1,6 @@
 import { IconType } from "react-icons";
 import { IconBadge } from "../icon-badge";
+import { Button } from "../button";
 
 interface NavItemProps {
   icon?: IconType;
@@ -10,7 +11,9 @@ interface NavItemProps {
 const NavItem = ({ icon, inputType, placeholder }: NavItemProps) => {
   return (
     <div className="flex justify-between flex-1 items-center px-2">
+      {/* modify below */}
       {inputType === "text" && icon && <IconBadge icon={icon!} bgSize="sm" />}
+
       {inputType === "text" && (
         <input
           type="text"
@@ -25,7 +28,7 @@ const NavItem = ({ icon, inputType, placeholder }: NavItemProps) => {
         />
       )}
       {inputType === "check" && <p>Full Time Only</p>}
-      {inputType === "check" && <button>Search</button>}
+      {inputType === "check" && <Button variant="purple">Search</Button>}
     </div>
   );
 };
