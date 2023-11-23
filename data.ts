@@ -21,6 +21,7 @@ export const jobs: {
   location: string;
   time: string;
   logo: IconType;
+  logoBgColor: string;
 }[] = [
   {
     type: "Full Time",
@@ -29,6 +30,7 @@ export const jobs: {
     location: "United Kingdom",
     time: "5h ago",
     logo: FaInnosoft,
+    logoBgColor: "bg-yellow-600",
   },
   {
     type: "Part Time",
@@ -37,6 +39,7 @@ export const jobs: {
     location: "United States",
     time: "20h ago",
     logo: SiBmcsoftware,
+    logoBgColor: "bg-orange-500",
   },
   {
     type: "Part Time",
@@ -45,6 +48,7 @@ export const jobs: {
     location: "Russia",
     time: "1d ago",
     logo: RiMicrosoftLoopLine,
+    logoBgColor: "bg-black",
   },
   {
     type: "Full time",
@@ -53,6 +57,7 @@ export const jobs: {
     location: "Japan",
     logo: SiJirasoftware,
     time: "2d ago",
+    logoBgColor: "bg-blue-500",
   },
   {
     type: "Part time",
@@ -61,6 +66,7 @@ export const jobs: {
     location: "Thailand",
     time: "2d ago",
     logo: SiMicrosoftacademic,
+    logoBgColor: "bg-black",
   },
   {
     type: "Part time",
@@ -69,6 +75,7 @@ export const jobs: {
     location: "Germany",
     time: "4d ago",
     logo: SiUbisoft,
+    logoBgColor: "bg-red-950",
   },
   {
     type: "Full time",
@@ -77,6 +84,7 @@ export const jobs: {
     location: "United States",
     time: "1w ago",
     logo: SiMulesoft,
+    logoBgColor: "bg-purple-700",
   },
   {
     type: "Full time",
@@ -85,6 +93,7 @@ export const jobs: {
     location: "United Kingdom",
     time: "1w ago",
     logo: SiAccusoft,
+    logoBgColor: "bg-blue-950",
   },
   {
     type: "Part time",
@@ -93,6 +102,7 @@ export const jobs: {
     location: "Singapore",
     time: "1w ago",
     logo: SiMicrosoftoffice,
+    logoBgColor: "bg-slate-300",
   },
   {
     type: "Freelance",
@@ -101,6 +111,7 @@ export const jobs: {
     location: "United States",
     time: "2w ago",
     logo: SiAtlassian,
+    logoBgColor: "bg-black",
   },
   {
     type: "Part time",
@@ -109,6 +120,7 @@ export const jobs: {
     location: "New Zealand",
     time: "1mo ago",
     logo: SiArtstation,
+    logoBgColor: '"bg-emerald-300',
   },
   {
     type: "Part time",
@@ -117,5 +129,6 @@ export const jobs: {
     location: "United Kingdom",
     time: "1mo ago",
     logo: SiCircleci,
+    logoBgColor: "bg-orange-500",
   },
 ];

@@ -1,10 +1,9 @@
 import JobCard from "@/components/jobCard";
 import { jobs } from "@/data";
-import { title } from "process";
 
 const HomePage = () => {
   return (
-    <div className="flex justify-center ">
+    <div className="flex justify-center mt-11">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-10 border w-full">
         {jobs.map((job) => (
           <JobCard
@@ -14,6 +13,7 @@ const HomePage = () => {
             time={job.time}
             location={job.location}
             logo={job.logo}
+            logoBg={job.logoBgColor}
             type={job.type}
           />
         ))}
