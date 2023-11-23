@@ -11,7 +11,7 @@ interface NavItemProps {
 const NavItem = ({ icon, inputType, placeholder }: NavItemProps) => {
   return (
     <div className="flex justify-between flex-1 items-center px-2">
-      {/* modify below */}
+      {/* modify icon below */}
       {inputType === "text" && icon && <IconBadge icon={icon!} bgSize="sm" />}
 
       {inputType === "text" && (
@@ -28,6 +28,8 @@ const NavItem = ({ icon, inputType, placeholder }: NavItemProps) => {
         />
       )}
       {inputType === "check" && <p>Full Time Only</p>}
+
+      {/* modify search button below */}
       {inputType === "check" && <Button variant="purple">Search</Button>}
     </div>
   );
