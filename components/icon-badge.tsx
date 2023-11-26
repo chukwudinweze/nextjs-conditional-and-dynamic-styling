@@ -9,13 +9,13 @@ const iconVariant = cva("rounded-md flex items-center justify-center", {
     bgColor: {
       default: "bg-transparent",
       black: "bg-black",
-      purple: "bg-purple-700",
+      purple: "bg-brandColor",
       darkBlue: "bg-blue-950",
     },
     iconColor: {
-      default: "text-black",
+      default: "text-brandColor",
       white: "text-white",
-      blue: "text-blue-500",
+      black: "text-black",
     },
     bgSize: {
       default: "p-1",
